@@ -1,0 +1,21 @@
+    1  git clone https://github.com/Iryna-Palamarchuk/HW_10.git
+    2  cd HW_10
+    3  touch text_ignore.txt
+    4  git status
+    5  git add .
+    6  git commit -m "Task 1. Робота з .gitignore"
+    7  touch main_test.txt
+    8  git add .
+    9  git commit -m "Task 2. Створення комітів"
+   10  git branch develop
+   11  git checkout develop
+   12  touch develop_test.txt
+   13  git add .
+   14  git commit -m "Task 3.1. Робота в іншій гілці"
+   15  git status
+   16  git add .
+   17  git commit -m "Task 3.2. Робота в іншій гілці"
+   18  git checkout main
+   19  git merge develop
+   20  git log
+   21  history > command_list.csv
